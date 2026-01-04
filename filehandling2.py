@@ -1,0 +1,12 @@
+"""a = open('Codingal.txt','r')
+print("opening the file in read mode")
+ print(a.read())
+a.close()"""
+b = open('Codingal.txt','w')
+print("opening the file in write mode")
+b.write("Hi, my name is Shamiksha." )
+b.close()
+c = open('codingal.txt','a')
+print("opening the file in append mode")
+c.write(" I am currently in grade 9")
+c.close()
